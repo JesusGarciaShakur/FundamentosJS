@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 20px;
+            font-family: 'Outfit', sans-serif;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+        }
+        .container{
+            width: 300px;
+            height: 250px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            text-align: center;
+        }
+        button {
+            width: 40%;
+            height: 40px;
+            align-items: center;
+            margin: 5px;;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 3px 3px 3px 3px rgba(83, 83, 83, 0.973);
+        }
+        button:hover {
+            background-color: rgba(177, 169, 169, 0.842);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Colores Background</h1>
+        <h2></h2>
+        <button onclick="setColor()">Update Color</button>
+    </div>
+    <script src="./coloresbg.js"></script>
+</body>
+</html>
